@@ -564,7 +564,11 @@ var Metronic = function () {
             }
 
             if (!options.container) {
-                $('.page-breadcrumb').after(html);
+                if ($('body').hasClass("page-container-bg-solid")) {
+                    $('.page-title').after(html);
+                } else {
+                    $('.page-bar').after(html);
+                }
             } else {
                 if (options.place == "append") {
                     $(options.container).append(html);
@@ -677,6 +681,14 @@ var Metronic = function () {
 
         getAssetsPath: function () {
             return assetsPath;
+        },    
+
+        setAssetsPath: function(path) {
+            assetsPath = path;
+        },
+
+        setGlobalImgPath: function (path) {
+            globalImgPath = assetsPath + path;
         },
 
         getGlobalImgPath: function () {

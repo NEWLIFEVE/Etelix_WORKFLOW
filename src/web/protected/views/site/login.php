@@ -1,106 +1,163 @@
+<body class="login">
+
+    <div class="menu-toggler sidebar-toggler">
+    </div>
+
+</body>
+
+
 <?php
 /* @var $this SiteController */
 /* @var $model LoginForm */
 /* @var $form CActiveForm  */
 
-$this->pageTitle=Yii::app()->name . ' - Login';
-
+$this->pageTitle = Yii::app()->name . ' - Login';
 ?>
-<!DOCTYPE html>
-<!-- 
-Template Name: Metronic - Responsive Admin Dashboard Template build with Twitter Bootstrap 3.2.0
-Version: 3.1.1
-Author: KeenThemes
-Website: http://www.keenthemes.com/
-Contact: support@keenthemes.com
-Follow: www.twitter.com/keenthemes
-Like: www.facebook.com/keenthemes
-Purchase: http://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes
-License: You must have a valid license purchased only from themeforest(the above link) in order to legally use the theme for your project.
--->
-<!--[if IE 8]> <html lang="en" class="ie8 no-js"> <![endif]-->
-<!--[if IE 9]> <html lang="en" class="ie9 no-js"> <![endif]-->
-<!--[if !IE]><!-->
-<html lang="en" >
-<!--<![endif]-->
-<!-- BEGIN HEAD -->
-<head>
-<meta charset="utf-8"/>
-<title>Metronic | Login Options - Login Form 2</title>
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<meta content="" name="description"/>
-<meta content="" name="author"/>
-<!-- BEGIN GLOBAL MANDATORY STYLES -->
 
-
-<!-- END THEME STYLES -->
-<link rel="shortcut icon" href="favicon.ico"/>
-</head>
 <body class="login">
-<!-- BEGIN LOGO -->
-<div class="logo">
-	<a href="/"><font class='work'>Work</font><font class='flow'>Flow</font></a>
-</div>
- <form class="login-form" method="post">
-<div class="content">
-	 
-<div class="form">
-<?php $form=$this->beginWidget('CActiveForm', array(
-	'id'=>'login-form',
-	'enableClientValidation'=>true,
-	'clientOptions'=>array(
-		'validateOnSubmit'=>true,
-	),
-)); ?>
 
-	
-<h3 class="form-title">Ingrese a su Cuenta</h3>
+    <style>
+        #circulo { 
+            width: 106px;
+            height: 104px;
+            margin-top: -67px;
+            /*margin-left: -26px;*/
+            margin-right: -14px;
+
+            /* webkit-border y moz-border son estilo adicionales para hacerlo compatible con la mayoria de los nevegadores */
+
+            background-color: rgba(0,0,0,0.2) !important; 
+
+            -moz-border-radius: 70px !important; 
+            -webkit-border-radius: 70px !important; 
+            border-radius: 70px !important;
+        }
 
 
-<div class="alert alert-danger display-hide">
-			<button class="close" data-close="alert"></button>
-			<span> </span>
-		</div>
+    </style>
 
-	<div class="form-group">
-            <div class="input-icon">
-              <i class="fa fa-user"></i>
-                 <?php echo $form->labelEx($model,''); ?>
-                 <?php echo $form->textField($model,'username',array('placeholder' => 'usuario', 'class' => 'form-control placeholder-no-fix')); ?>
-                <?php echo $form->error($model,'username'); ?>
-            </div>
+
+
+    <?php
+    /* @var $this SiteController */
+    /* @var $model LoginForm */
+    /* @var $form CActiveForm  */
+
+    $this->pageTitle = Yii::app()->name . ' - Login';
+    ?>
+
+<body class="login">
+
+    <style>
+        #circulo { 
+            width: 106px;
+            height: 104px;
+            margin-top: -28px;
+            margin-left: -26px;
+            /*margin-right: -14px;*/
+
+            /* webkit-border y moz-border son estilo adicionales para hacerlo compatible con la mayoria de los nevegadores */
+
+            background-color: rgba(0,0,0,0.2) !important; 
+
+            -moz-border-radius: 70px !important; 
+            -webkit-border-radius: 70px !important; 
+            border-radius: 70px !important;
+        }
+
+
+    </style>
+
+    <!-- BEGIN LOGO -->
+    <div class="logo">
+        <a href="#"> <img src="/themes/metronic/admin/pages/media/bg/ribela_logo.png" alt="logo" class="logo-default" style="width: 175px; margin-top: -60px"></a>
     </div>
+    <form class="login-form" method="post" >
+        <div class="content" style="margin-top:-36px">
+
+            <div class="form">
+<?php
+$form = $this->beginWidget('CActiveForm', array(
+//	'id'=>'login-form',
+//	'enableClientValidation'=>true,
+//	'clientOptions'=>array(
+//		'validateOnSubmit'=>true,
+//	),
+        ));
+?>
 
 
-    <div class="form-group">
-             <div class="input-icon">
-                 <i class="fa fa-lock"></i>
-                    <?php echo $form->labelEx($model,''); ?>
-                    <?php echo $form->passwordField($model,'password',array('placeholder' => 'contraseña', 'class'=>'form-control placeholder-no-fix')); ?>
-                    <?php echo $form->error($model,'password'); ?>
-             </div>
-             
-    </div>
+<!--    <span style="font-size: 15px; margin-left: 63px; color:#BDBDBD">Iniciar Sesión en Rivela</span>-->
 
-		<div class="form-actions">
-			<label class="checkbox">
-			<input type="checkbox" name="remember" value="1"/> Remember me </label>
-			<button type="submit" class="btn blue pull-right">
-			Login <i class="m-icon-swapright m-icon-white"></i>
-			</button>
-		</div>
-	
-		
 
-<?php $this->endWidget(); ?>
+                <div class="alert alert-danger display-hide">
+                    <button class="close" data-close="alert"></button>
+                    <span> </span>
+                </div>
 
-</div><!-- form --></form>
+                <table align="center" style="margin-top: 51px; width: 112%" border="0">
+                    <tr>
+                        <td colspan="2"> </td>
+
+                    </tr>
+                    <tr>
+                        <td colspan="2"><br></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><span style="font-size: 18px; color:#848484; margin-left: 47px">Iniciar Sesión en Rivela</span></td>
+                    </tr>
+                    <tr>
+                        <td rowspan="3">
+                            <div id="circulo">
+
+                                <img src="/themes/metronic/admin/pages/media/bg/candado.png" style="width: 50px; margin-top: 9px; margin-left: 28px;">
+                            </div>
+
+                        </td>
+                        <td> <div class="form-group" style=" margin-left: 22px;">
+                                <div class="input-icon">
+                                    <i class="fa fa-user" style="margin-top: 28px"></i>
+                                    <?php echo $form->labelEx($model, ''); ?>
+                                    <?php echo $form->textField($model, 'username', array('placeholder' => 'usuario', 'class' => 'form-control placeholder-no-fix', 'style' => 'border-radius: 15px 15px 15px 15px !important; background-color:#000000;background-color: rgba(0,0,0,0.2) !important;  ; color:#ffffff; border-color:#6E6E6E; border:none !important;')); ?>
+                                    <?php echo $form->error($model, 'username'); ?>
+                                </div>
+                            </div></td>
+                    </tr>
+                    <tr>
+                        <td> <div class="form-group">
+                                <div class="input-icon" style=" margin-top: -28px; margin-left: 22px;">
+                                    <i class="fa fa-lock" style="margin-top: 28px"></i>
+                                    <?php echo $form->labelEx($model, ''); ?>
+                                    <?php echo $form->passwordField($model, 'password', array('placeholder' => 'contraseña', 'class' => 'form-control placeholder-no-fix', 'style' => 'border-radius: 15px 15px 15px 15px !important; background-color:#000000; background-color: rgba(0,0,0,0.2) !important;  ; color:#ffffff; border-color:#6E6E6E; border:none !important;')); ?>
+
+                                    <button type="submit" class=" pull-right" style="border-radius: 15px 15px 15px 15px !important; background-color: rgba(0,0,0,0.01) !important; border:none !important;margin-top: -31px; height: 27px; width: 38px; z-index: 9999; position: relative; border-bottom-color: none !important;;" >
+                                        <i class="m-icon-swapright m-icon-white"></i>
+                                    </button>
+                                    <?php echo $form->error($model, 'password'); ?>
+                                </div>
+                            </div></td>
+                    </tr>
+                    <tr>
+                        <td><div class="form-actions" style="margin-top:-17px">
+                                <label class="checkbox" style="margin-top: -33px; font-size: 11px; margin-left: 54px">
+                                    <input type="checkbox" name="remember" value="1" style="border-radius: 15px 15px 15px 15px !important; opacity: 0.2;"/><span style="opacity:0.5"> Permanecer Conectado</span> </label>
+                            </div></td>
+                    </tr>
+                    <tr>
+                        <td>
+
+                        </td>
+                    </tr>
+                </table>
+
+
+
+                <?php $this->endWidget(); ?>
+
+            </div><!-- form --></form>
 </div>
 
+<div style="margin-top:190px; margin-left: 938px; color:#ffffff; font-size: 11px"  >
+    <a id="" href="#" style="color:#ffffff">¿Olvido Su Contraseña?</a> - Derechos Reservados 2014 Etelix - Group - <a style="color:#ffffff">Ayuda</a></a>
+</div>
 </body>
-
-<div class="copyright">
-	 Copyrigth 2014 by <a id="enlacerenoc" href="http://www.etelix.com/">www.etelix.com</a> Legal privacy 
-</div>
-</html>

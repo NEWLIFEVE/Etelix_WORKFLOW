@@ -130,20 +130,20 @@ var Login = function () {
         }
 
 
-		$("#select2_sample4").select2({
-		  	placeholder: '<i class="fa fa-map-marker"></i>&nbsp;Select a Country',
-            allowClear: true,
-            formatResult: format,
-            formatSelection: format,
-            escapeMarkup: function (m) {
-                return m;
-            }
-        });
+//		$("#select2_sample4").select2({
+//		  	placeholder: '<i class="fa fa-map-marker"></i>&nbsp;Select a Country',
+//            allowClear: true,
+//            formatResult: format,
+//            formatSelection: format,
+//            escapeMarkup: function (m) {
+//                return m;
+//            }
+//        });
 
 
-			$('#select2_sample4').change(function () {
-                $('.register-form').validate().element($(this)); //revalidate the chosen dropdown value and show error or success message for the input
-            });
+//			$('#select2_sample4').change(function () {
+//                $('.register-form').validate().element($(this)); //revalidate the chosen dropdown value and show error or success message for the input
+//            });
 
 
 
@@ -247,17 +247,7 @@ var Login = function () {
         	
             handleLogin();
             handleForgetPassword();
-            handleRegister();        
-	       
-	       	$.backstretch([
-		        "/themes/metronic/admin/pages/media/bg/1.jpg",
-    		    "/themes/metronic/admin/pages/media/bg/2.jpg",
-    		    "/themes/metronic/admin/pages/media/bg/3.jpg",
-    		    "/themes/metronic/admin/pages/media/bg/4.jpg"
-		        ], {
-		          fade: 1000,
-		          duration: 8000
-		    });
+            handleRegister();    
         }
 
     };
