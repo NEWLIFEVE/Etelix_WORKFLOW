@@ -131,12 +131,6 @@ License: You must have a valid license purchased only from themeforest(the above
 					</a>
 					<ul class='dropdown-menu'>
 						
-						<li class='divider'>
-						</li>
-						<li>
-							<a href='extra_lock.html'>
-							<i class='icon-lock'></i> Lock Screen </a>
-						</li>
 						<li>
 							<a href='/site/logout'>
 							<i class='icon-key'></i> Log Out </a>
