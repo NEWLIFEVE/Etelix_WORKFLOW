@@ -1,7 +1,7 @@
-assets/*
+src/web/protected/config/gii.php
+src/web/protected/config/db.php
+src/web/assets/*
 !assets/.gitignore
-protected/runtime/*
-!protected/runtime/.gitignore
-protected/data/*.db
-themes/classic/views/
-/nbproject/private/
+src/web/protected/runtime/*
+nbproject/*
+src/web/themes/metronic/img/profile/*
