@@ -2,19 +2,32 @@
 Login page
 ***/
 /* logo page */
+.dashBoard{
+    width: 100%;
+  margin: 0 auto;
+  margin-bottom: 0px;
+  padding: 30px;
+  padding-top: 20px;
+  padding-bottom: 15px;
+}
+
+
+.dashBoard label {
+  color: #fff;
+}
 .login {
   background-color: #666 !important;
 }
 
 .login .logo {
   margin: 0 auto;
-  margin-top: 60px;
+  margin-top: 96px;
   padding: 15px;
   text-align: center;
 }
 
 .login .content {
-  background: url(../img/bg-white-lock.png) repeat;
+  /*background: url(../img/bg-white-lock.png) repeat;*/
   width: 360px;
   margin: 0 auto;
   margin-bottom: 0px;

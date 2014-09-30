@@ -622,7 +622,7 @@ var Index = function () {
                         // (string | mandatory) the heading of the notification
                         title: '<a href="http://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes" target="_blank">Get Metronic Just For 25$</a>',
                         // (string | mandatory) the text inside the notification
-                        text: 'Metronic is World\'s #1 Selling Bootstrap 3 Admin Theme Ever! 15400+ Users Can\'t be Wrong.',
+                        text: 'Metronic is World\'s #1 Selling Bootstrap 3 Admin Theme Ever! 18000+ Users Can\'t be Wrong.',
                         // (string | optional) the image to display on the left
                         image: '../../assets/admin/layout/img/avatar1.jpg',
                         // (bool | optional) if you want it to fade out on its own or just sit there

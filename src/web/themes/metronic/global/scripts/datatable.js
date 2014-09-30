@@ -39,6 +39,7 @@ var Datatable = function () {
                 filterApplyAction: "filter",
                 filterCancelAction: "filter_cancel",
                 resetGroupActionInputOnSuccess: true,
+                loadingMessage: 'Loading...',
                 dataTable: {
                     "dom": "<'row'<'col-md-8 col-sm-12'pli><'col-md-4 col-sm-12'<'table-group-actions pull-right'>>r><'table-scrollable't><'row'<'col-md-8 col-sm-12'pli><'col-md-4 col-sm-12'>>", // datatable layout
                     "pageLength": 10, // default records per page
@@ -48,7 +49,6 @@ var Datatable = function () {
                         "metronicAjaxRequestGeneralError": "Could not complete request. Please check your internet connection",
 
                         // data tables spesific
-                        "processing": '<img src="' + Metronic.getGlobalImgPath() + 'loading-spinner-grey.gif"/><span>&nbsp;&nbsp;Loading...</span>',
                         "lengthMenu": "<span class='seperator'>|</span>View _MENU_ records",
                         "info": "<span class='seperator'>|</span>Found total _TOTAL_ records",
                         "infoEmpty": "No records found to show",
@@ -72,7 +72,7 @@ var Datatable = function () {
 
                     "pagingType": "bootstrap_extended", // pagination type(bootstrap, bootstrap_full_number or bootstrap_extended)
                     "autoWidth": false, // disable fixed width and enable fluid table
-                    "processing": true, // enable/disable display message box on record load
+                    "processing": false, // enable/disable display message box on record load
                     "serverSide": true, // enable/disable server side ajax loading
 
                     "ajax": { // define ajax settings
@@ -82,6 +82,13 @@ var Datatable = function () {
                         "data": function (data) { // add request parameters before submit
                             $.each(ajaxParams, function (key, value) {
                                 data[key] = value;
+                            });
+                            Metronic.blockUI({
+                                message: tableOptions.loadingMessage,
+                                target: tableContainer, 
+                                overlayColor: 'none', 
+                                cenrerY: true, 
+                                boxed: true
                             });
                         },
                         "dataSrc": function (res) { // Manipulate the data returned from the server
@@ -110,6 +117,8 @@ var Datatable = function () {
                                 tableOptions.onSuccess.call(undefined, the);
                             }
 
+                            Metronic.unblockUI(tableContainer);
+
                             return res.data;
                         },
                         "error": function () { // handle general connection errors
@@ -125,7 +134,7 @@ var Datatable = function () {
                                 place: 'prepend'
                             });
 
-                            $('.dataTables_processing', tableWrapper).remove();
+                           Metronic.unblockUI(tableContainer);
                         }
                     },
 
