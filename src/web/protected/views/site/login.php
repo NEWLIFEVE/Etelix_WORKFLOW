@@ -104,7 +104,7 @@ $form = $this->beginWidget('CActiveForm', array(
                         <td colspan="2"><br></td>
                     </tr>
                     <tr>
-                        <td colspan="2"><span style="font-size: 18px; color:#848484; margin-left: 47px">Iniciar Sesión en Rivela</span></td>
+                        <td colspan="2"><span style="font-size: 18px; color:#ffffff; margin-left: 47px">Iniciar Sesión en Ribela</span></td>
                     </tr>
                     <tr>
                         <td rowspan="3">
@@ -157,7 +157,7 @@ $form = $this->beginWidget('CActiveForm', array(
             </div><!-- form --></form>
 </div>
 
-<div style="margin-top:190px; margin-left: 938px; color:#ffffff; font-size: 11px"  >
-    <a id="" href="#" style="color:#ffffff">¿Olvido Su Contraseña?</a> - Derechos Reservados 2014 Etelix - Group - <a style="color:#ffffff">Ayuda</a></a>
+<div style="margin-top:190px; text-align: center; color:#ffffff; font-size: 11px"  >
+    <a id="" href="#" style="color:#ffffff">¿Olvido Su Contraseña?</a> - Derechos Reservados 2014 Etelix Group - <a style="color:#ffffff">Ayuda</a></a>
 </div>
 </body>
