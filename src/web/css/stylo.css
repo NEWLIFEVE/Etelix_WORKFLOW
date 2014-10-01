@@ -280,10 +280,10 @@ display: table-cell;
 
 
 .zoom{
-    transition: 0.9s ease;
-    -moz-transition: 0.9s ease; /* Firefox */
-    -webkit-transition: 0.9s ease; /* Chrome - Safari */
-    -o-transition: 0.9s ease; /* Opera */
+    transition: 0.4s ease;
+    -moz-transition: 0.4s ease; /* Firefox */
+    -webkit-transition: 0.4s ease; /* Chrome - Safari */
+    -o-transition: 0.4s ease; /* Opera */
 }
 .zoom:hover{
     transform : scale(1.2);
