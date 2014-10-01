@@ -140,7 +140,7 @@ $form = $this->beginWidget('CActiveForm', array(
                     <tr>
                         <td><div class="form-actions" style="margin-top:-17px">
                                 <label class="checkbox" style="margin-top: -33px; font-size: 11px; margin-left: 54px">
-                                    <input type="checkbox" name="remember" value="1" style="border-radius: 15px 15px 15px 15px !important; opacity: 0.2;"/><span style="opacity:0.5"> Permanecer Conectado</span> </label>
+                                    <input type="checkbox" name="remember" value="1" style="border-radius: 15px 15px 15px 15px !important; opacity: 0.2;"/><span > Permanecer Conectado</span> </label>
                             </div></td>
                     </tr>
                     <tr>
