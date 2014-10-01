@@ -356,7 +356,7 @@ Demo.init(); // init demo features
   $('div.checker').removeClass("checker");
        // init background slide images
        $.backstretch([
-        "/themes/metronic/admin/pages/media/bg/corto.PNG"
+        "/themes/metronic/admin/pages/media/bg/corto.png"
         ], {
           fade: 1000,
           duration: 8000
