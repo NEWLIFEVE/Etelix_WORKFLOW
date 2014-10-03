@@ -254,7 +254,8 @@ display: table-cell;
 .div_tabla{display: table;border-spacing: 2px;margin-left: 37%;width: 55%;}
 .div_tabla_editar_empleados{display: table;border-spacing: 2px;margin-left: 0%;width: 100%;}
 .contenidos_columnas{display: table-row;}
-.secundario{display: table-cell;width: 35%;}
+.secundario{display: table-cell;width: 30%;}
+.secundarioderecha{display: table-cell;width: 24%;}
 .contenidos_nomina{display: table-row;}
 .secundario_nomina{display: table-cell;width: 29%;}
 .principal {margin-left: 60%;width: 200%;}

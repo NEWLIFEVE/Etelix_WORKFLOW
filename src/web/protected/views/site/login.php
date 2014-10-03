@@ -38,36 +38,6 @@ $this->pageTitle = Yii::app()->name . ' - Login';
 
 
 
-    <?php
-    /* @var $this SiteController */
-    /* @var $model LoginForm */
-    /* @var $form CActiveForm  */
-
-    $this->pageTitle = Yii::app()->name . ' - Login';
-    ?>
-
-<body class="login">
-
-    <style>
-        #circulo { 
-            width: 106px;
-            height: 104px;
-            margin-top: -28px;
-            margin-left: -26px;
-            /*margin-right: -14px;*/
-
-            /* webkit-border y moz-border son estilo adicionales para hacerlo compatible con la mayoria de los nevegadores */
-
-            background-color: rgba(0,0,0,0.2) !important; 
-
-            -moz-border-radius: 70px !important; 
-            -webkit-border-radius: 70px !important; 
-            border-radius: 70px !important;
-        }
-
-
-    </style>
-
     <!-- BEGIN LOGO -->
     <div class="logo">
         <a href="#"> <img src="/themes/metronic/admin/pages/media/bg/ribela_logo.png" alt="logo" class="logo-default" style="width: 175px; margin-top: -60px"></a>
