@@ -11,12 +11,12 @@
                 <label class="control-label letra_empleado" style="margin-left: 20%" >RENOC</label>
             </div>
             <div  class="secundarioderecha form-group zoom">
-                <a href="#" target="_blank"><img id ="load_photo" src="/themes/metronic/admin/pages/img/ribela-soon.png" class="img-responsive" alt="" style="width: 33%; margin-left: -9%"/></a> 
+                <a href="#" ><img id ="load_photo" src="/themes/metronic/admin/pages/img/ribela-soon.png" class="img-responsive" alt="" style="width: 33%; margin-left: -9%"/></a> 
                  <label class="control-label letra_empleado" style="margin-left: -4%">PRODUCTO</label>
             </div>
            
             <div class="secundario form-group zoom">
-                <a href="#" target="_blank"><img id ="load_photo" src="/themes/metronic/admin/pages/img/ribela-soon.png" class="img-responsive" alt="" style="width: 50%; margin-left: -9%"/></a>
+                <a href="#" ><img id ="load_photo" src="/themes/metronic/admin/pages/img/ribela-soon.png" class="img-responsive" alt="" style="width: 50%; margin-left: -9%"/></a>
                  <label class="control-label letra_empleado" style="margin-left: 12%">RIX</label>
             </div>
         </div>
@@ -30,11 +30,11 @@
                 <label class="control-label letra_empleado" style="margin-left: 22%" >SINE</label>
             </div>
             <div class="secundarioderecha form-group zoom">
-                 <a href="#" target="_blank"><img id ="load_photo" src="/themes/metronic/admin/pages/img/ribela-soon.png" class="img-responsive" alt="" style="width: 33%; margin-left: -9%"/></a> 
+                 <a href="#" ><img id ="load_photo" src="/themes/metronic/admin/pages/img/ribela-soon.png" class="img-responsive" alt="" style="width: 33%; margin-left: -9%"/></a> 
                  <label class="control-label letra_empleado" style="margin-left: 1%">RETESO</label>
             </div>
             <div class="secundario form-group zoom">
-                <a href="#" target="_blank"><img id ="load_photo" src="/themes/metronic/admin/pages/img/ribela-soon.png" class="img-responsive" alt="" style="width: 50%; margin-left: -9%"/></a>
+                <a href="#"><img id ="load_photo" src="/themes/metronic/admin/pages/img/ribela-soon.png" class="img-responsive" alt="" style="width: 50%; margin-left: -9%"/></a>
                  <label class="control-label letra_empleado" style="margin-left: 8%">REMO</label>
             </div>
         </div>
@@ -52,7 +52,7 @@
                   <label class="control-label letra_empleado " style="margin-left: 1%" >Etelix TV</label>
             </div>
             <div class="secundario form-group zoom">
-                <a href="#" target="_blank"><img id ="load_photo" src="/themes/metronic/admin/pages/img/ribela-soon.png" class="img-responsive" alt="" style="width: 50%; margin-left: -9%"/></a>
+                <a href="#"><img id ="load_photo" src="/themes/metronic/admin/pages/img/ribela-soon.png" class="img-responsive" alt="" style="width: 50%; margin-left: -9%"/></a>
                   <label class="control-label letra_empleado " ></label>
             </div>
         </div>
@@ -70,7 +70,7 @@
                   <label class="control-label letra_empleado "  style="margin-left: 4%">CCTT</label>
             </div>
             <div class="secundario form-group zoom">
-                <a href="#" target="_blank"><img id ="load_photo" src="/themes/metronic/admin/pages/img/ribela-soon.png" class="img-responsive" alt="" style="width: 50%; margin-left: -9%"/></a>
+                <a href="#"><img id ="load_photo" src="/themes/metronic/admin/pages/img/ribela-soon.png" class="img-responsive" alt="" style="width: 50%; margin-left: -9%"/></a>
                   <label class="control-label letra_empleado " ></label>
             </div>
         </div>
