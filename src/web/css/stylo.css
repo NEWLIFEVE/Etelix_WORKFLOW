@@ -285,6 +285,9 @@ display: table-cell;
     -moz-transition: 0.4s ease; /* Firefox */
     -webkit-transition: 0.4s ease; /* Chrome - Safari */
     -o-transition: 0.4s ease; /* Opera */
+   
+	
+	
 }
 .zoom:hover{
     transform : scale(1.2);

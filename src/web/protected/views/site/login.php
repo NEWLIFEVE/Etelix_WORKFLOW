@@ -20,7 +20,7 @@ $this->pageTitle = Yii::app()->name . ' - Login';
         #circulo { 
             width: 106px;
             height: 104px;
-            margin-top: -67px;
+            margin-top: -34px;
             /*margin-left: -26px;*/
             margin-right: -14px;
 
@@ -32,6 +32,16 @@ $this->pageTitle = Yii::app()->name . ' - Login';
             -webkit-border-radius: 70px !important; 
             border-radius: 70px !important;
         }
+        
+        #center {
+            position: absolute;
+            top:0;
+            left:0;
+            right:0;
+            bottom:0;
+            margin: auto;
+
+        }
 
 
     </style>
@@ -39,8 +49,9 @@ $this->pageTitle = Yii::app()->name . ' - Login';
 
 
     <!-- BEGIN LOGO -->
+    <div id="center">
     <div class="logo">
-        <a href="#"> <img src="/themes/metronic/admin/pages/media/bg/ribela_logo.png" alt="logo" class="logo-default" style="width: 175px; margin-top: -60px"></a>
+        <a href="#"> <img src="/themes/metronic/admin/pages/img/logo_ribela.png" alt="logo" class="logo-default" style="width: 175px; margin-top: -60px"></a>
     </div>
     <form class="login-form" method="post" >
         <div class="content" style="margin-top:-36px">
@@ -74,7 +85,7 @@ $form = $this->beginWidget('CActiveForm', array(
                         <td colspan="2"><br></td>
                     </tr>
                     <tr>
-                        <td colspan="2"><span style="font-size: 18px; color:#ffffff; margin-left: 98px">Login</span></td>
+                        <td colspan="2"><span style="font-size: 18px; color:#ffffff; margin-left: 121px">Login</span></td>
                     </tr>
                     <tr>
                         <td rowspan="3">
@@ -126,8 +137,11 @@ $form = $this->beginWidget('CActiveForm', array(
 
             </div><!-- form --></form>
 </div>
-
-<div style="margin-top:190px; text-align: center; color:#ffffff; font-size: 11px"  >
+        
+        <div style="margin-top:190px; text-align: center; color:#ffffff; font-size: 11px"  >
     <a id="" href="#" style="color:#ffffff">¿Olvido Su Contraseña?</a> - Copyrigth © 2014 - Etelix Group  <a style="color:#ffffff">Ayuda</a></a>
 </div>
+    </div>
+
+
 </body>
