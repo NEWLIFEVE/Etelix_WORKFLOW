@@ -9,7 +9,7 @@
                 <a href="http://renoc.sacet.com.ve/" target="_blank"><img  src="/themes/metronic/admin/pages/img/icono_ribela-02.png" class="zoom" style="width: 25%; margin-left: 13%"/></a> 
             </div>
             <div  class="secundarioderecha form-group">
-                <a href="#" ><img src="/themes/metronic/admin/pages/img/ribela-soon.png" class="zoom" style="width: 31%; margin-left: -9%"/></a> 
+                <a href="#" ><img src="/themes/metronic/admin/pages/img/ribela-soon.png" class="zoom" style="width: 31%; margin-left: -9%"/></a>
                  <label class="control-label letra_empleado" style="margin-left: -4%"></label>
             </div>
            
@@ -57,7 +57,7 @@
                     <a href="http://atc.etelix.com/" target="_blank"><img id ="load_photo" src="/themes/metronic/admin/pages/img/icono_ribela-09.png" class="zoom" alt="" style="width: 25%; margin-left: 13%"/></a> 
             </div>
             <div class="secundarioderecha form-group">
-                <a href="http://cctt.etelixcontactcenter.com/" target="_blank"><img id ="load_photo" src="/themes/metronic/admin/pages/img/icono_ribela-10.png" class="zoom" alt="" style="width: 33%; margin-left: -9%"/></a>
+                <a href="http://cctt.etelixcontactcenter.com/" target="_blank"><img id ="load_photo" src="/themes/metronic/admin/pages/img/ribela-soon.png" class="zoom" alt="" style="width: 33%; margin-left: -9%"/></a>
             </div>
             <div class="secundario form-group">
                 <a href="#"><img id ="load_photo" src="/themes/metronic/admin/pages/img/ribela-soon.png" class="zoom" alt="" style="width: 48%; margin-left: -9%"/></a>
