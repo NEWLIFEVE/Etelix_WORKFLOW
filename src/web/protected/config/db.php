@@ -3,7 +3,7 @@
 return array(
 	'components'=>array(
 		'db'=>array(
-			'connectionString'=>'pgsql:host=127.0.0.1;port=5432;dbname=dev_aru_25092014',
+			'connectionString'=>'pgsql:host=127.0.0.1;port=5432;dbname=aru_06042015',
 			'emulatePrepare'=>true,
 			'username'=>'postgres',
             'password'=>'123',
