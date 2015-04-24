@@ -127,8 +127,11 @@ $this->pageTitle = Yii::app()->name . ' - Login';
                                 </div></td>
                         </tr>
                         <tr>
-                            <td colspan="2">    <div class="text-center">Atención  al usuario 24/7</div>
-                                <div class="text-center">+58 212 740 11 12 Ext. 900</div></td>
+                            <td colspan="2">    
+                                <div class="text-center">Atención  al usuario 24/7</div>
+                                <div class="text-center">+58 212 740 11 12 Ext. 900</div>
+                                <div class="text-center">Email: soporteauto@etelix.com</div>
+                            </td>
                         </tr>
                         <tr>
                             <td>
