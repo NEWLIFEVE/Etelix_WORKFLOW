@@ -94,12 +94,12 @@ License: You must have a valid license purchased only from themeforest(the above
 		<div class='page-logo bajar'>
 		
 			<font class='work'>Bienvenido: ".Yii::app()->user->name."</font>
-			
-		
 			<div class='menu-toggler sidebar-toggler hide'>
 				<!-- DOC: Remove the above 'hide' to enable the sidebar toggler button on header -->
 			</div>
 		</div>
+        <div style='float:left' class='text-center page-logo margin-left-10'></div>
+        <div style='float:left; width:21%; margin-left:5% !important;' class='text-center page-logo margin-left-10'>Atención al usuario +58 212 740 11 12</div>
 		<!-- END LOGO -->
 		<!-- BEGIN RESPONSIVE MENU TOGGLER -->
 		<a href='javascript:;' class='menu-toggler responsive-toggler' data-toggle='collapse' data-target='.navbar-collapse'>
