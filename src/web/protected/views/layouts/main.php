@@ -99,7 +99,7 @@ License: You must have a valid license purchased only from themeforest(the above
 			</div>
 		</div>
         <div style='float:left' class='text-center page-logo margin-left-10'></div>
-        <div style='float:left; width:21%; margin-left:5% !important;' class='text-center page-logo margin-left-10'>Atención al usuario +58 212 740 11 12 Ext. 900</div>
+        <div style='float:left; width:23% !important; margin-left:5% !important;' class='text-center page-logo margin-left-10'>Atención al usuario +58 212 740 11 12<br> Ext. 900 - Email: soporteauto@etelix.com</div>
 		<!-- END LOGO -->
 		<!-- BEGIN RESPONSIVE MENU TOGGLER -->
 		<a href='javascript:;' class='menu-toggler responsive-toggler' data-toggle='collapse' data-target='.navbar-collapse'>
