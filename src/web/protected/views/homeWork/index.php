@@ -42,7 +42,7 @@
                   <a href="http://pig.ribela.net/" target="_blank"><img id ="load_photo" src="/themes/metronic/admin/pages/img/icono_ribela-07.png" class="zoom" alt="" style="width: 25%; margin-left: 13%" /></a>
             </div>
             <div class="secundarioderecha form-group">
-                <a href="http://etelixtv.ribela.net/" target="_blank"><img id ="load_photo" src="/themes/metronic/admin/pages/img/icono_ribela-08.png" class="zoom" alt="" style="width: 33%; margin-left: -9%"/></a> 
+                <a href="http://tv.ribela.net/" target="_blank"><img id ="load_photo" src="/themes/metronic/admin/pages/img/icono_ribela-08.png" class="zoom" alt="" style="width: 33%; margin-left: -9%"/></a> 
             </div>
             <div class="secundario form-group">
                 <a href="#"><img id ="load_photo" src="/themes/metronic/admin/pages/img/ribela-soon.png" class="zoom" alt="" style="width: 48%; margin-left: -9%"/></a>
