@@ -127,6 +127,20 @@ License: You must have a valid license purchased only from themeforest(the above
 					<a href='#' class='dropdown-toggle' data-toggle='dropdown' data-hover='dropdown' data-close-others='true'>
 					
 					<span class='username'></span>
+					<i class='fa fa-download'></i>
+					</a>
+					<ul class='dropdown-menu'>
+						
+						<li>
+							<a href='http://ribela.net/uploads/20150424-GSI-BPM Control de Calidad.pdf'>
+							<i class='fa fa-file-text-o'></i> Control de Calidad </a>
+						</li>
+					</ul>
+				</li>
+				<li class='dropdown dropdown-user'>
+					<a href='#' class='dropdown-toggle' data-toggle='dropdown' data-hover='dropdown' data-close-others='true'>
+					
+					<span class='username'></span>
 					<i class='fa fa-th-large'></i>
 					</a>
 					<ul class='dropdown-menu'>
