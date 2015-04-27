@@ -300,3 +300,19 @@ display: table-cell;
 .opacidad {
     opacity: 0.7;
 }
+
+/* blur modals
+========= */
+.modal-open #blur_modals{
+    -webkit-filter: blur(7px);
+    -moz-filter: blur(15px);
+    -o-filter: blur(15px);
+    -ms-filter: blur(15px);
+    filter: blur(15px);
+}
+
+.modal-backdrop {background: #f7f7f7;}
+
+.modal-content {
+    border-radius: 7px !important;
+}
