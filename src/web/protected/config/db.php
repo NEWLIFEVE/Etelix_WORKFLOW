@@ -3,13 +3,9 @@
 return array(
 	'components'=>array(
 		'db'=>array(
-			'connectionString'=>'pgsql:host=172.16.15.19;port=5432;dbname=aru_20150330',
-			'emulatePrepare'=>true,
+			'connectionString'=>'pgsql:host=67.215.160.228;port=5432;dbname=aru',
 			'username'=>'postgres',
-            'password'=>'123',
-			'charset'=>'utf8',
-			'enableProfiling'=>true,
-        	'enableParamLogging'=>true,
+            'password'=>'rkCQ16DjK3nwVDR6',
             ),
 		)
 	);

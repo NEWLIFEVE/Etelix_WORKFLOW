@@ -123,6 +123,7 @@ License: You must have a valid license purchased only from themeforest(the above
 				</li>
 				<!-- END TODO DROPDOWN -->
 				<!-- BEGIN USER LOGIN DROPDOWN -->
+
 				<li class='dropdown'>
 					<a href='#' class='dropdown-toggle' data-toggle='dropdown' data-hover='dropdown' data-close-others='true'>
 					
@@ -132,7 +133,7 @@ License: You must have a valid license purchased only from themeforest(the above
 					<ul class='dropdown-menu'>
 						
 						<li>
-							<a href='http://ribela.net/uploads/20150424-GSI-BPM Control de Calidad.pdf'>
+							<a href='http://ribela.net/uploads/20150424-GSI-BPM-Control-de-Calidad.pdf'>
 							<i class='fa fa-file-text-o'></i> Control de Calidad </a>
 						</li>
 					</ul>
