@@ -3,7 +3,7 @@
         <div class="contenidos_columnas">
             
              <div class="secundario form-group">
-                 <a href="http://sori.ribela.net/" target="_blank"><img  src="/themes/metronic/admin/pages/img/icono_ribela-01.png" class="zoom" style="width: 26%; margin-left: 30% " /></a> 
+                 <a data-toggle="modal" data-target="#sori_options"><img  src="/themes/metronic/admin/pages/img/icono_ribela-01.png" class="zoom" style="width: 26%; margin-left: 30% " /></a> 
             </div>
             <div class="secundario form-group">
                 <a href="http://renoc.ribela.net/" target="_blank"><img  src="/themes/metronic/admin/pages/img/icono_ribela-02.png" class="zoom" style="width: 25%; margin-left: 13%"/></a> 
@@ -54,7 +54,7 @@
                      <a href="http://etts.ribela.net/" target="_blank"><img id ="load_photo" src="/themes/metronic/admin/pages/img/icono_ribela-06.png" class="zoom" alt="" style="width: 25%; margin-left: 30% "/></a> 
             </div>
             <div class="secundario form-group">
-                    <a href="http://atc.ribela.net/" target="_blank"><img id ="load_photo" src="/themes/metronic/admin/pages/img/icono_ribela-09.png" class="zoom" alt="" style="width: 25%; margin-left: 13%"/></a> 
+                    <a data-toggle="modal" data-target="#atc_options"><img id ="load_photo" src="/themes/metronic/admin/pages/img/icono_ribela-09.png" class="zoom" alt="" style="width: 25%; margin-left: 13%"/></a> 
             </div>
             <div class="secundarioderecha form-group">
                 <a href="#" target="_blank"><img id ="load_photo" src="/themes/metronic/admin/pages/img/ribela-soon.png" class="zoom" alt="" style="width: 33%; margin-left: -9%"/></a>

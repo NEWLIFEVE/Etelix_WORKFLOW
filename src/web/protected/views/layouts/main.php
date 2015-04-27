@@ -70,7 +70,7 @@ License: You must have a valid license purchased only from themeforest(the above
 <!-- DOC: Apply "page-sidebar-reversed" class to put the sidebar on the right side -->
 <!-- DOC: Apply "page-full-width" class to the body element to have full width page without the sidebar menu -->
 <body class="login">
-
+<div id="blur_modals">
 <!-- BEGIN SIDEBAR TOGGLER BUTTON -->
 <div class="menu-toggler sidebar-toggler">
 </div>
@@ -358,8 +358,6 @@ License: You must have a valid license purchased only from themeforest(the above
 
 </script> 
 
-
-
 <script>
 jQuery(document).ready(function() {     
   Metronic.init(); // init metronic core components
@@ -377,14 +375,57 @@ Demo.init(); // init demo features
     }
     );
 });
-
- 
 </script>
 <!-- END JAVASCRIPTS -->
+</div>
+<!-- BEGIN MODALS -->
+<!-- SORI OPTIONS -->
+<div class="modal fade" id="sori_options" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">Seleccione una opción para Sori</h4>
+      </div>
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-md-6 margin-bottom-10"><a href="http://sorimitelco.ribela.net" class="btn btn-block btn-default">Sori Mitelco</a></div>
+          <div class="col-md-6 margin-bottom-10"><a href="http://soricomvoz.ribela.net" class="btn btn-block btn-default">Sori Comvoz</a></div>
+          <div class="col-md-6 margin-top-10"><a href="http://sorilatincom.ribela.net" class="btn btn-block btn-default">Sori Latincom</a></div>
+          <div class="col-md-6 margin-top-10"><a href="http://sorifullred.ribela.net" class="btn btn-block btn-default">Sori Fullred</a></div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+<!-- ATC OPTIONS -->
+<div class="modal fade" id="atc_options" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">Seleccione una opción para ATC</h4>
+      </div>
+      <div class="modal-body">
+        <div class="modal-body">
+        <div class="row">
+          <div class="col-md-6 margin-bottom-10"><a href="http://atcmitelco.ribela.net" class="btn btn-block btn-default">ATC Mitelco</a></div>
+          <div class="col-md-6 margin-bottom-10"><a href="http://atccomvoz.ribela.net" class="btn btn-block btn-default">ATC Comvoz</a></div>
+          <div class="col-md-6 margin-top-10"><a href="http://atclatincom.ribela.net" class="btn btn-block btn-default">ATC Latincom</a></div>
+          <div class="col-md-6 margin-top-10"><a href="http://atcfullred.ribela.net" class="btn btn-block btn-default">ATC Fullred</a></div>
+        </div>
+      </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+<!-- END MODALS -->
 </body>
 <!-- END BODY -->
 </html>
-
-
-
-
