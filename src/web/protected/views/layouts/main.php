@@ -123,21 +123,22 @@ License: You must have a valid license purchased only from themeforest(the above
 				</li>
 				<!-- END TODO DROPDOWN -->
 				<!-- BEGIN USER LOGIN DROPDOWN -->
-				<li class='dropdown dropdown-user'>
-     					<a href='#' class='dropdown-toggle' data-toggle='dropdown' data-hover='dropdown' data-close-others='true'>
-     
-     					<span class='username'></span>
-     					<i class='fa fa-download'></i>
-     					</a>
-     					<ul class='dropdown-menu'>
-      
-      					<li>
-       					<a href='http://ribela.net/uploads/20150424-GSI-BPM-Control-de-Calidad.pdf'  target='_blank'>
-       					<i class='fa fa-file-text-o'></i> Control de Calidad </a>
-      					</li>
-     					</ul>
-    				</li>
-				<li class='dropdown dropdown-user'>
+
+				<li class='dropdown'>
+					<a href='#' class='dropdown-toggle' data-toggle='dropdown' data-hover='dropdown' data-close-others='true'>
+					
+					<span class='username'></span>
+					<i class='fa fa-download'></i>
+					</a>
+					<ul class='dropdown-menu'>
+						
+						<li>
+							<a href='http://ribela.net/uploads/20150424-GSI-BPM-Control-de-Calidad.pdf'>
+							<i class='fa fa-file-text-o'></i> Control de Calidad </a>
+						</li>
+					</ul>
+				</li>
+				<li class='dropdown'>
 					<a href='#' class='dropdown-toggle' data-toggle='dropdown' data-hover='dropdown' data-close-others='true'>
 					
 					<span class='username'></span>
@@ -440,6 +441,35 @@ Demo.init(); // init demo features
             </div>
             <div class="row">
                 <div class="col-md-12"><a href="http://sinecomvoz.ribela.net" class="btn btn-block"><img src="/images/comvoz.png" alt=""></a></div>
+            </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+<!-- SINCA OPTIONS -->
+<div class="modal" id="sinca_options" tabindex="-1" role="dialog" aria-labelledby="sinca_options" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">Seleccione una opción para SINCA <img src="/images/sinca_logo.png" alt="" width="21"></h4>
+      </div>
+      <div class="modal-body">
+        <div class="modal-body">
+            <div class="row">
+                <div class="col-md-6 margin-bottom-10"><a href="http://sinca.ribela.net" class="btn btn-block"><img src="/images/etelix.png" alt="" width="160"></a></div>
+                <div class="col-md-6 margin-bottom-10"><a href="http://sincafullred.ribela.net" class="btn btn-block"><img src="/images/fullred.png" alt="" width="162"></a></div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 margin-bottom-10"><a href="http://sincalatincom.ribela.net" class="btn btn-block"><img src="/images/latincom.png" alt="" width="160"></a></div>
+                <div class="col-md-6 margin-bottom-10"><a href="http://sincamitelco.ribela.net" class="btn btn-block"><img src="/images/mitelco.png" alt="" width="160"></a></div>
+            </div>
+            <div class="row">
+                <div class="col-md-12"><a href="http://sincacomvoz.ribela.net" class="btn btn-block"><img src="/images/comvoz.png" alt=""></a></div>
             </div>
         </div>
       </div>
