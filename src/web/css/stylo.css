@@ -324,3 +324,7 @@ display: table-cell;
 .modal-content {
     border-radius: 7px !important;
 }
+
+.page-quick-sidebar-toggler {
+    display: none !important;
+}
