@@ -427,7 +427,7 @@ Demo.init(); // init demo features
         <div class="modal-body">
         <div class="row">
           <div class="col-md-6 margin-bottom-10"><a href="http://atcmitelco.ribela.net" class="btn btn-block btn-default">ATC Mitelco</a></div>
-          <div class="col-md-6 margin-bottom-10"><a href="http://atccomvoz.ribela.net" class="btn btn-block btn-default">ATC Comvoz</a></div>
+          <div class="col-md-6 margin-bottom-10"><a href="http://atcsacet.ribela.net" class="btn btn-block btn-default">ATC Sacet</a></div>
           <div class="col-md-6 margin-top-10"><a href="http://atclatincom.ribela.net" class="btn btn-block btn-default">ATC Latincom</a></div>
           <div class="col-md-6 margin-top-10"><a href="http://atcfullred.ribela.net" class="btn btn-block btn-default">ATC Fullred</a></div>
         </div>
