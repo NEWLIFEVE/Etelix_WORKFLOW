@@ -23,7 +23,7 @@
                <a href="http://sinca.ribela.net/" target="_blank"><img src="/themes/metronic/admin/pages/img/icono_ribela-03.png" class="zoom" style="width: 25%; margin-left: 30% "/></a>
             </div>
             <div class="secundario form-group">
-                <a href="http://sine.ribela.net/" target="_blank"><img src="/themes/metronic/admin/pages/img/icono_ribela-04.png" class="zoom" style="width: 25%; margin-left: 13%"/></a> 
+                <a data-toggle="modal" data-target="#sine_options"><img src="/themes/metronic/admin/pages/img/icono_ribela-04.png" class="zoom" style="width: 25%; margin-left: 13%"/></a> 
             </div>
             <div class="secundarioderecha form-group">
                  <a href="#" ><img src="/themes/metronic/admin/pages/img/ribela-soon.png" class="zoom" style="width: 31%; margin-left: -9%"/></a> 
