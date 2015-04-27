@@ -394,7 +394,7 @@ Demo.init(); // init demo features
 </div>
 <!-- BEGIN MODALS -->
 <!-- SORI OPTIONS -->
-<div class="modal fade" id="sori_options" tabindex="-1" role="dialog" aria-labelledby="sori_options" aria-hidden="true">
+<div class="modal" id="sori_options" tabindex="-1" role="dialog" aria-labelledby="sori_options" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
@@ -421,7 +421,7 @@ Demo.init(); // init demo features
   </div><!-- /.modal-dialog -->
 </div><!-- /.modal -->
 <!-- SINE OPTIONS -->
-<div class="modal fade" id="sine_options" tabindex="-1" role="dialog" aria-labelledby="sine_options" aria-hidden="true">
+<div class="modal" id="sine_options" tabindex="-1" role="dialog" aria-labelledby="sine_options" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
@@ -450,7 +450,7 @@ Demo.init(); // init demo features
   </div><!-- /.modal-dialog -->
 </div><!-- /.modal -->
 <!-- ATC OPTIONS -->
-<div class="modal fade" id="atc_options" tabindex="-1" role="dialog" aria-labelledby="atc_options" aria-hidden="true">
+<div class="modal" id="atc_options" tabindex="-1" role="dialog" aria-labelledby="atc_options" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">

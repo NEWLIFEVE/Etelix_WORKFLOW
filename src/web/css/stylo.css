@@ -312,3 +312,7 @@ display: table-cell;
 }
 
 .modal-backdrop {background: #f7f7f7;}
+
+.modal-content {
+    border-radius: 7px !important;
+}
