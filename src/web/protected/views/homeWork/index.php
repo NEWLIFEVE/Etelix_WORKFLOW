@@ -20,7 +20,7 @@
         </div>
         <div class="contenidos_columnas">
             <div class="secundario form-group">
-               <a href="http://sinca.ribela.net/" target="_blank"><img src="/themes/metronic/admin/pages/img/icono_ribela-03.png" class="zoom" style="width: 25%; margin-left: 30% "/></a>
+               <a data-toggle="modal" data-target="#sinca_options"><img src="/themes/metronic/admin/pages/img/icono_ribela-03.png" class="zoom" style="width: 25%; margin-left: 30% "/></a>
             </div>
             <div class="secundario form-group">
                 <a data-toggle="modal" data-target="#sine_options"><img src="/themes/metronic/admin/pages/img/icono_ribela-04.png" class="zoom" style="width: 25%; margin-left: 13%"/></a> 
