@@ -393,6 +393,7 @@ Demo.init(); // init demo features
           <div class="col-md-6 margin-bottom-10"><a href="http://soricomvoz.ribela.net" class="btn btn-block btn-default">Sori Comvoz</a></div>
           <div class="col-md-6 margin-top-10"><a href="http://sorilatincom.ribela.net" class="btn btn-block btn-default">Sori Latincom</a></div>
           <div class="col-md-6 margin-top-10"><a href="http://sorifullred.ribela.net" class="btn btn-block btn-default">Sori Fullred</a></div>
+          <div class="col-md-12 margin-top-10"><a href="http://sori.ribela.net" class="btn btn-block btn-default">Sori</a></div>
         </div>
       </div>
       <div class="modal-footer">
@@ -416,6 +417,7 @@ Demo.init(); // init demo features
           <div class="col-md-6 margin-bottom-10"><a href="http://atcsacet.ribela.net" class="btn btn-block btn-default">ATC Sacet</a></div>
           <div class="col-md-6 margin-top-10"><a href="http://atclatincom.ribela.net" class="btn btn-block btn-default">ATC Latincom</a></div>
           <div class="col-md-6 margin-top-10"><a href="http://atcfullred.ribela.net" class="btn btn-block btn-default">ATC Fullred</a></div>
+          <div class="col-md-12 margin-top-10"><a href="http://atc.ribela.net" class="btn btn-block btn-default">ATC</a></div>
         </div>
       </div>
       </div>
