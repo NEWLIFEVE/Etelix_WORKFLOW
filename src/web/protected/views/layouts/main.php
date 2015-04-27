@@ -404,15 +404,15 @@ Demo.init(); // init demo features
       </div>
       <div class="modal-body">
         <div class="row">
-            <div class="col-md-6 margin-bottom-10"><a href="http://sori.ribela.net" class="btn btn-block"><img src="/images/etelix.png" alt="" width="160"></a></div>
-            <div class="col-md-6 margin-bottom-10"><a href="http://sorifullred.ribela.net" class="btn btn-block"><img src="/images/fullred.png" alt="" width="162"></a></div>
+            <div class="col-md-6 margin-bottom-10"><a href="http://sori.ribela.net" class="btn btn-block" target="_blank"><img src="/images/etelix.png" alt="" width="160"></a></div>
+            <div class="col-md-6 margin-bottom-10"><a href="http://sorifullred.ribela.net" class="btn btn-block" target="_blank"><img src="/images/fullred.png" alt="" width="162"></a></div>
         </div>
         <div class="row">
-            <div class="col-md-6 margin-bottom-10"><a href="http://sorilatincom.ribela.net" class="btn btn-block"><img src="/images/latincom.png" alt="" width="160"></a></div>
-            <div class="col-md-6 margin-bottom-10"><a href="http://sorimitelco.ribela.net" class="btn btn-block"><img src="/images/mitelco.png" alt="" width="160"></a></div>
+            <div class="col-md-6 margin-bottom-10"><a href="http://sorilatincom.ribela.net" class="btn btn-block" target="_blank"><img src="/images/latincom.png" alt="" width="160"></a></div>
+            <div class="col-md-6 margin-bottom-10"><a href="http://sorimitelco.ribela.net" class="btn btn-block" target="_blank"><img src="/images/mitelco.png" alt="" width="160"></a></div>
         </div>
         <div class="row">
-            <div class="col-md-12"><a href="http://soricomvoz.ribela.net" class="btn btn-block"><img src="/images/comvoz.png" alt=""></a></div>
+            <div class="col-md-12"><a href="http://soricomvoz.ribela.net" class="btn btn-block" target="_blank"><img src="/images/comvoz.png" alt=""></a></div>
         </div>
       </div>
       <div class="modal-footer">
@@ -432,15 +432,15 @@ Demo.init(); // init demo features
       <div class="modal-body">
         <div class="modal-body">
             <div class="row">
-                <div class="col-md-6 margin-bottom-10"><a href="http://sine.ribela.net" class="btn btn-block"><img src="/images/etelix.png" alt="" width="160"></a></div>
-                <div class="col-md-6 margin-bottom-10"><a href="http://sinefullred.ribela.net" class="btn btn-block"><img src="/images/fullred.png" alt="" width="162"></a></div>
+                <div class="col-md-6 margin-bottom-10"><a href="http://sine.ribela.net" class="btn btn-block" target="_blank"><img src="/images/etelix.png" alt="" width="160"></a></div>
+                <div class="col-md-6 margin-bottom-10"><a href="http://sinefullred.ribela.net" class="btn btn-block" target="_blank"><img src="/images/fullred.png" alt="" width="162"></a></div>
             </div>
             <div class="row">
-                <div class="col-md-6 margin-bottom-10"><a href="http://sinelatincom.ribela.net" class="btn btn-block"><img src="/images/latincom.png" alt="" width="160"></a></div>
-                <div class="col-md-6 margin-bottom-10"><a href="http://sinemitelco.ribela.net" class="btn btn-block"><img src="/images/mitelco.png" alt="" width="160"></a></div>
+                <div class="col-md-6 margin-bottom-10"><a href="http://sinelatincom.ribela.net" class="btn btn-block" target="_blank"><img src="/images/latincom.png" alt="" width="160"></a></div>
+                <div class="col-md-6 margin-bottom-10"><a href="http://sinemitelco.ribela.net" class="btn btn-block" target="_blank"><img src="/images/mitelco.png" alt="" width="160"></a></div>
             </div>
             <div class="row">
-                <div class="col-md-12"><a href="http://sinecomvoz.ribela.net" class="btn btn-block"><img src="/images/comvoz.png" alt=""></a></div>
+                <div class="col-md-12"><a href="http://sinecomvoz.ribela.net" class="btn btn-block" target="_blank"><img src="/images/comvoz.png" alt=""></a></div>
             </div>
         </div>
       </div>
@@ -461,15 +461,15 @@ Demo.init(); // init demo features
       <div class="modal-body">
         <div class="modal-body">
             <div class="row">
-                <div class="col-md-6 margin-bottom-10"><a href="http://sinca.ribela.net" class="btn btn-block"><img src="/images/etelix.png" alt="" width="160"></a></div>
-                <div class="col-md-6 margin-bottom-10"><a href="http://sincafullred.ribela.net" class="btn btn-block"><img src="/images/fullred.png" alt="" width="162"></a></div>
+                <div class="col-md-6 margin-bottom-10"><a href="http://sinca.ribela.net" class="btn btn-block" target="_blank"><img src="/images/etelix.png" alt="" width="160"></a></div>
+                <div class="col-md-6 margin-bottom-10"><a href="http://sincafullred.ribela.net" class="btn btn-block" target="_blank"><img src="/images/fullred.png" alt="" width="162"></a></div>
             </div>
             <div class="row">
-                <div class="col-md-6 margin-bottom-10"><a href="http://sincalatincom.ribela.net" class="btn btn-block"><img src="/images/latincom.png" alt="" width="160"></a></div>
-                <div class="col-md-6 margin-bottom-10"><a href="http://sincamitelco.ribela.net" class="btn btn-block"><img src="/images/mitelco.png" alt="" width="160"></a></div>
+                <div class="col-md-6 margin-bottom-10"><a href="http://sincalatincom.ribela.net" class="btn btn-block" target="_blank"><img src="/images/latincom.png" alt="" width="160"></a></div>
+                <div class="col-md-6 margin-bottom-10"><a href="http://sincamitelco.ribela.net" class="btn btn-block" target="_blank"><img src="/images/mitelco.png" alt="" width="160"></a></div>
             </div>
             <div class="row">
-                <div class="col-md-12"><a href="http://sincacomvoz.ribela.net" class="btn btn-block"><img src="/images/comvoz.png" alt=""></a></div>
+                <div class="col-md-12"><a href="http://sincacomvoz.ribela.net" class="btn btn-block" target="_blank"><img src="/images/comvoz.png" alt=""></a></div>
             </div>
         </div>
       </div>
@@ -490,15 +490,15 @@ Demo.init(); // init demo features
       <div class="modal-body">
         <div class="modal-body">
             <div class="row">
-                <div class="col-md-6 margin-bottom-10"><a href="http://atcsacet.ribela.net" class="btn btn-block"><img src="/images/etelix.png" alt="" width="160"></a></div>
-                <div class="col-md-6 margin-bottom-10"><a href="http://atcfullred.ribela.net" class="btn btn-block"><img src="/images/fullred.png" alt="" width="162"></a></div>
+                <div class="col-md-6 margin-bottom-10"><a href="http://atcsacet.ribela.net" class="btn btn-block" target="_blank"><img src="/images/etelix.png" alt="" width="160"></a></div>
+                <div class="col-md-6 margin-bottom-10"><a href="http://atcfullred.ribela.net" class="btn btn-block" target="_blank"><img src="/images/fullred.png" alt="" width="162"></a></div>
             </div>
             <div class="row">
-                <div class="col-md-6 margin-bottom-10"><a href="http://atclatincom.ribela.net" class="btn btn-block"><img src="/images/latincom.png" alt="" width="160"></a></div>
-                <div class="col-md-6 margin-bottom-10"><a href="http://atcmitelco.ribela.net" class="btn btn-block"><img src="/images/mitelco.png" alt="" width="160"></a></div>
+                <div class="col-md-6 margin-bottom-10"><a href="http://atclatincom.ribela.net" class="btn btn-block" target="_blank"><img src="/images/latincom.png" alt="" width="160"></a></div>
+                <div class="col-md-6 margin-bottom-10"><a href="http://atcmitelco.ribela.net" class="btn btn-block" target="_blank"><img src="/images/mitelco.png" alt="" width="160"></a></div>
             </div>
             <div class="row">
-                <div class="col-md-12"><a href="http://atc.ribela.net" class="btn btn-block"><img src="/images/comvoz.png" alt=""></a></div>
+                <div class="col-md-12"><a href="http://atc.ribela.net" class="btn btn-block" target="_blank"><img src="/images/comvoz.png" alt=""></a></div>
             </div>
         </div>
       </div>
