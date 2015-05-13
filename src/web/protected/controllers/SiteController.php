@@ -32,8 +32,15 @@ class SiteController extends Controller
 		//$this->render('index');
 		if(!Yii::app()->user->isGuest)
 		{
-            $this->redirect('homeWork/');
-        }
+                    //$this->redirect('homeWork/');
+                    if(Yii::app()->user->getState('model')!=null){
+                
+                        $this->render('/homeWork/index', ['model'=>Yii::app()->user->getState('model')]);
+                
+                    }else{
+                        $this->redirect('/site/logout');
+                    }
+                }
 
 
 		else{
@@ -51,8 +58,18 @@ class SiteController extends Controller
 		{
 			$model->attributes=$_POST['LoginForm'];
 			// validate user input and redirect to the previous page if valid
-			if($model->validate() && $model->login())
-				$this->redirect('homeWork/');
+			if($model->validate() && $model->login()){
+
+                                $sysSession = new SysSession();
+                                if($sysSession->saveSession($_POST['LoginForm']['username']))
+                                {
+                                    Yii::app()->user->setState('model',$sysSession);
+                                    $this->render('/homeWork/index', ['model'=>$sysSession]);
+                                }else{
+                                    $this->render('login',array('model'=>$model));
+                                }
+                        }
+				
 		}
 		// display the login form
 		$this->render('login',array('model'=>$model));
@@ -130,6 +147,17 @@ class SiteController extends Controller
 	 */
 	public function actionLogout()
 	{
+            if(Yii::app()->user->getState('model')!=null){
+                $sysSession =Yii::app()->user->getState('model');
+                $data = json_decode($sysSession->data);
+                $data->status=false;
+                $sysSession->data = json_encode($data);
+                if(!$sysSession->save()){
+                    $this->render('/homeWork/index', ['model'=>$sysSession]);
+                }
+            }
+            
+//                $sysSession = SysSession::
 		Yii::app()->user->logout();
 		$this->redirect(Yii::app()->homeUrl);
 	}
