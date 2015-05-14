@@ -1,6 +1,8 @@
 <?php
 define('SERVER_NAME_PROD', 'ribela.net');
 define('SERVER_NAME_LOCAL', 'ribela.local');
+define('SERVER_NAME_ALFA', 'alfa12.ribela.net');
+define('SERVER_NAME_BETA', 'beta12.ribela.net');
 
 
 
@@ -12,7 +14,19 @@ switch ($server){
             define('SERVER_NAME_RIBELA', 'ribela.net');
             define('SERVER_NAME_ARU', 'aru.ribela.net');
             define('SERVER_NAME_PIG', 'pig.ribela.net');
-            $yii=dirname(__FILE__).'/../../../yii/yii.php';
+            $yii=dirname(__FILE__).'/../../../../../yii/yii.php';
+        break;
+    case SERVER_NAME_ALFA:
+            define('SERVER_NAME_RIBELA', 'alfa12.ribela.net');
+            define('SERVER_NAME_ARU', 'alfa4.ribela.net');
+            define('SERVER_NAME_PIG', 'alfa11.ribela.net');
+            $yii=dirname(__FILE__).'/../../../../../yii/yii.php';
+        break;
+    case SERVER_NAME_BETA:
+            define('SERVER_NAME_RIBELA', ' beta12.ribela.net');
+            define('SERVER_NAME_ARU', 'beta4.ribela.net');
+            define('SERVER_NAME_PIG', 'beta11.ribela.net');
+            $yii=dirname(__FILE__).'/../../../../../yii/yii.php';
         break;
     default:
             define('SERVER_NAME_RIBELA', 'ribela.local');
