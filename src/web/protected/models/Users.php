@@ -61,6 +61,7 @@ class Users extends CActiveRecord
 			'idEmployee' => array(self::BELONGS_TO, 'Employee', 'id_employee'),
 			'idStatus' => array(self::BELONGS_TO, 'StatusEmployee', 'id_status'),
 			'connectingTraces' => array(self::HAS_MANY, 'ConnectingTrace', 'id_user'),
+                        'sysSessions' => array(self::HAS_MANY, 'SysSession', 'id_users'),
 		);
 	}
 
