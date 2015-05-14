@@ -19,7 +19,7 @@ switch ($server){
             define('SERVER_NAME_ARU', 'aru.local');
             define('SERVER_NAME_PIG', 'pig.local');
             $yii=dirname(__FILE__).'/../../../yii/framework/yii.php';
-            $gii=require(dirname(__FILE__).'/protected/config/gii.php');
+           
         break;
 }
 
@@ -38,7 +38,7 @@ require_once($yii);
 
 $main=require(dirname(__FILE__).'/protected/config/main.php');
 $db=require(dirname(__FILE__).'/protected/config/db.php');
-
+ $gii=require(dirname(__FILE__).'/protected/config/gii.php');
 
 $config=CMap::mergeArray($main,$db,$gii);
 
