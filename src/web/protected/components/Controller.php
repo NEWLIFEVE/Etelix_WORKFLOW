@@ -27,19 +27,20 @@ class Controller extends CController
             if(!Yii::app()->user->isGuest){
 
                 $session = SysSession::model()->findBySql($sql);
-                if(Yii::app()->user->getState('model')->id == $session->id){
+                if($session!=null && Yii::app()->user->getState('model')->id == $session->id){
                         
-                    if($session!=null){
+//                    if($session!=null){
 
                         return parent::beforeAction($action);
-                    }else{
-                        if(Yii::app()->user->getState('action')=='/site/logout'){
-                            return parent::beforeAction($action);
-                        }
-                        Yii::app()->user->setState('action','/site/logout');
-                        return $this->redirect('/site/logout');           
-                    }
+//                    }else{
+//                        if(Yii::app()->user->getState('action')=='/site/logout'){
+//                            return parent::beforeAction($action);
+//                        }
+//                        Yii::app()->user->setState('action','/site/logout');
+//                        return $this->redirect('/site/logout');           
+//                    }
                 }else{
+                    
                     if(Yii::app()->user->getState('action')=='/site/logout'){
                             return parent::beforeAction($action);
                         }
