@@ -80,7 +80,8 @@
       </div>
       <div class="modal-body">
         <div class="row">
-            <div class="col-md-6 margin-bottom-10"><a href="http://sori.ribela.net" class="btn btn-block" target="_blank"><img src="/images/etelix.png" alt="" width="160"></a></div>
+            <!--<div class="col-md-6 margin-bottom-10"><a href="http://sori.ribela.net" class="btn btn-block" target="_blank"><img src="/images/etelix.png" alt="" width="160"></a></div>-->
+            <?= "<div class='col-md-6 margin-bottom-10'><a href='http://".SERVER_NAME_SORI ."/site/autoLogin?id=".$model->id."' class='btn btn-block'><img src='/images/etelix.png' alt='' width='160'></a></div>" ?>
             <div class="col-md-6 margin-bottom-10"><a href="http://sorifullred.ribela.net" class="btn btn-block" target="_blank"><img src="/images/fullred.png" alt="" width="162"></a></div>
         </div>
         <div class="row">
@@ -110,7 +111,7 @@
       <div class="modal-body">
         <div class="modal-body">
             <div class="row">
-                <div class="col-md-6 margin-bottom-10"><a href="http://sine.ribela.net" class="btn btn-block" target="_blank"><img src="/images/etelix.png" alt="" width="160"></a></div>
+                <?= "<div class='col-md-6 margin-bottom-10'><a href='http://".SERVER_NAME_SINE."/site/autoLogin?id=".$model->id."' class='btn btn-block' ><img src='/images/etelix.png' alt='' width='160'></a></div>" ?>
                 <div class="col-md-6 margin-bottom-10"><a href="http://sinefullred.ribela.net" class="btn btn-block" target="_blank"><img src="/images/fullred.png" alt="" width="162"></a></div>
             </div>
             <div class="row">
