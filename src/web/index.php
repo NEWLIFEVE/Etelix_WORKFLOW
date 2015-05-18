@@ -17,6 +17,7 @@ switch ($server){
             define('SERVER_NAME_ATC', 'atc.ribela.net');
             define('SERVER_NAME_SORI', 'sori.ribela.net');
             define('SERVER_NAME_SINE', 'sine.ribela.net');
+            define('SERVER_NAME_RENOC', 'renoc.ribela.net');
             $yii=dirname(__FILE__).'/../../../../yii/yii.php';
         break;
     case SERVER_NAME_ALFA:
@@ -26,6 +27,7 @@ switch ($server){
             define('SERVER_NAME_ATC', 'alfa2.ribela.net');
             define('SERVER_NAME_SORI', 'no se');
             define('SERVER_NAME_SINE', 'no se');
+            define('SERVER_NAME_RENOC', 'no se');
             $yii=dirname(__FILE__).'/../../../../../../yii/yii.php';
         break;
     case SERVER_NAME_BETA:
@@ -35,6 +37,7 @@ switch ($server){
             define('SERVER_NAME_ATC', 'beta2.ribela.net');
             define('SERVER_NAME_SORI', 'no se');
             define('SERVER_NAME_SINE', 'no se');
+            define('SERVER_NAME_RENOC', 'no se');
             $yii=dirname(__FILE__).'/../../../../../../yii/yii.php';
         break;
     default:
@@ -44,6 +47,7 @@ switch ($server){
             define('SERVER_NAME_ATC', 'atc.local');
             define('SERVER_NAME_SORI', 'sori.local');
             define('SERVER_NAME_SINE', 'sine.local');
+            define('SERVER_NAME_RENOC', 'renoc.local');
             $yii=dirname(__FILE__).'/../../../yii/framework/yii.php';
            
         break;
