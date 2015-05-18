@@ -92,6 +92,19 @@ class SysSession extends CActiveRecord
 	}
         
         public function saveSession($username){
+            
+            $sessions = self::model()->findAllBySql("SELECT s.* FROM sys_session s WHERE s.data->>'username' = '$username' AND s.data->>'status' = 'true'");
+            if ($sessions!=null){
+                foreach ($sessions as $value) {
+                    $data = json_decode($value->data);
+                    $data->status=false;
+                    $value->data =  json_encode($data);
+                    if(!$value->save()){
+                        return false; 
+                    }
+                }
+            }
+            
             $data = [];
             $data['username']=$username;
             $data['status']=true;

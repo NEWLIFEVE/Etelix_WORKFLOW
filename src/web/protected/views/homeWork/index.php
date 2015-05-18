@@ -54,7 +54,8 @@
               <a href="http://etts.ribela.net/" target="_blank"><img id ="load_photo" src="/themes/metronic/admin/pages/img/icono_ribela-06.png" class="zoom" alt="" style="width: 25%; margin-left: 30% "/></a> 
             </div>
             <div class="secundario form-group">
-              <a href="#" data-toggle="modal" data-target="#atc_options"><img id ="load_photo" src="/themes/metronic/admin/pages/img/icono_ribela-09.png" class="zoom" alt="" style="width: 25%; margin-left: 13%"/></a> 
+              <a href="#" data-toggle="modal" data-target="#atc_options"><img id ="load_photo" src="/themes/metronic/admin/pages/img/icono_ribela-09.png" class="zoom" alt="" style="width: 25%; margin-left: 13%"/></a>
+                <?php // "<a href='http://".SERVER_NAME_ATC."/user/autoLogin?id=$model->id' ><img id ='load_photo' src='/themes/metronic/admin/pages/img/icono_ribela-09.png' class='zoom' alt='' style='width: 25%; margin-left: 13%'/></a>"?>
             </div>
             <div class="secundarioderecha form-group">
                 <a href="#" target="_blank"><img id ="load_photo" src="/themes/metronic/admin/pages/img/ribela-soon.png" class="zoom" alt="" style="width: 33%; margin-left: -9%"/></a>
