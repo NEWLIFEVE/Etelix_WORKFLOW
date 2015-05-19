@@ -69,10 +69,13 @@ class SiteController extends Controller
                                     $this->render('login',array('model'=>$model));
                                 }
                         }
-				
 		}
+                
+                else{
+                    $this->render('login',array('model'=>$model));
+                }
 		// display the login form
-		$this->render('login',array('model'=>$model));
+		
 	}
 	}
 
