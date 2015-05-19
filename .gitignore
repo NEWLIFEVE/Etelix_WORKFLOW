@@ -1,6 +1,7 @@
 src/web/protected/config/gii.php
 src/web/protected/config/db.php
 src/web/assets/*
+src/web/index.php
 !assets/.gitignore
 src/web/protected/runtime/*
 nbproject/*
