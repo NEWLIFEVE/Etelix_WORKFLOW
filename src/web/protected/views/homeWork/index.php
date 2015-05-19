@@ -27,7 +27,7 @@
                 <a href="#" data-toggle="modal" data-target="#sine_options"><img src="/themes/metronic/admin/pages/img/icono_ribela-04.png" class="zoom" style="width: 25%; margin-left: 13%"/></a> 
             </div>
             <div class="secundarioderecha form-group">
-                 <a href="http://imeka.ribela.net/" target="_blank"><img src="/themes/metronic/admin/pages/img/iconos_ribela-12-imeka.png" class="zoom" style="width: 31%; margin-left: -9%"/></a> 
+                 <?= "<a href='http://".SERVER_NAME_IMEKA."/site/autologin?id=$model->id'><img src='/themes/metronic/admin/pages/img/iconos_ribela-12-imeka.png' class='zoom' style='width: 31%; margin-left: -9%'/></a>" ?> 
                  <label class="control-label letra_empleado" style="margin-left: 1%"></label>
             </div>
             <div class="secundario form-group">
