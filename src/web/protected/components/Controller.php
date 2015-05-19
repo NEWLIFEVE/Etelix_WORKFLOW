@@ -20,4 +20,38 @@ class Controller extends CController
 	 * for more details on how to specify this property.
 	 */
 	public $breadcrumbs=array();
+        
+                protected function beforeAction($action) {
+        $sql = "SELECT s.* FROM sys_session s WHERE s.data->>'username'= '".Yii::app()->user->name."' AND s.data->>'status'='true'";
+
+            if(!Yii::app()->user->isGuest){
+
+                $session = SysSession::model()->findBySql($sql);
+                if($session!=null && Yii::app()->user->getState('model')->id == $session->id){
+                        
+//                    if($session!=null){
+
+                        return parent::beforeAction($action);
+//                    }else{
+//                        if(Yii::app()->user->getState('action')=='/site/logout'){
+//                            return parent::beforeAction($action);
+//                        }
+//                        Yii::app()->user->setState('action','/site/logout');
+//                        return $this->redirect('/site/logout');           
+//                    }
+                }else{
+                    
+                    if(Yii::app()->user->getState('action')=='/site/logout'){
+                            return parent::beforeAction($action);
+                        }
+                        Yii::app()->user->setState('action','/site/logout');
+                        return $this->redirect('/site/logout'); 
+                }
+            }else{
+
+                    return parent::beforeAction($action);
+                
+            }
+            
+    }
 }
