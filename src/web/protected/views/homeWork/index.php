@@ -37,7 +37,7 @@
         </div>
         <div class="contenidos_columnas">
             <div class="secundario form-group">
-                   <?="<a href='http://".SERVER_NAME_ARU."/site/autoLogin?id=$model->id'><img src='/themes/metronic/admin/pages/img/icono_ribela-05.png' class='zoom' alt='' style='width: 25%; margin-left: 30% ' /></a>"?>                         
+                   <?="<a href='https://".SERVER_NAME_ARU."/site/autoLogin?id=$model->id'><img src='/themes/metronic/admin/pages/img/icono_ribela-05.png' class='zoom' alt='' style='width: 25%; margin-left: 30% ' /></a>"?>                         
             </div>
             <div class="secundario form-group">
                   <?="<a href='http://".SERVER_NAME_PIG."/site/autoLogin?id=$model->id'><img id ='load_photo' src='/themes/metronic/admin/pages/img/icono_ribela-07.png' class='zoom' alt='' style='width: 25%; margin-left: 13%' /></a>"?>
