@@ -156,7 +156,7 @@ $this->pageTitle = Yii::app()->name . ' - Login';
         <div class='row'>
             <div  style='padding:40px; background-color:rgba(255, 255, 255, 0.3); border-radius:7px !important'>
                 <h3 class='form-title text-center' style='color:#3c3c3c; font-weight:600;'><i class='fa fa-exclamation rojo' style='font-size:23px !important'></i> Temporalmente Fuera de servicio.</h3>
-                <h4 class='form-title text-center' style='color:#3c3c3c;'>Ciclo de mantenimiento de <span ><b>09:00:00 a 10:00:00 </b>GMT 04:30</span></h4>
+                <h4 class='form-title text-center' style='color:#3c3c3c;'>Ciclo de mantenimiento de <span ><b>09:00:00 a 10:00:00 </b>GMT -04:30</span></h4>
             </div>
         </div> 
     </div>
