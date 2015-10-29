@@ -59,7 +59,8 @@
                 <?php // "<a href='http://".SERVER_NAME_ATC."/user/autoLogin?id=$model->id' ><img id ='load_photo' src='/themes/metronic/admin/pages/img/icono_ribela-09.png' class='zoom' alt='' style='width: 25%; margin-left: 13%'/></a>"?>
             </div>
             <div class="secundarioderecha form-group">
-                <a href="#" target="_blank"><img id ="load_photo" src="/themes/metronic/admin/pages/img/ribela-soon.png" class="zoom" alt="" style="width: 33%; margin-left: -9%"/></a>
+                <?= "<a href='http://".SERVER_NAME_BA."/site/autologin?id=$model->id' ><img  src='/themes/metronic/admin/pages/img/tenting_route.png' class='zoom' style='width: 33%; margin-left: -9%'/></a>" ?>
+
             </div>
             <div class="secundario form-group">
                 <a href="#"><img id ="load_photo" src="/themes/metronic/admin/pages/img/ribela-soon.png" class="zoom" alt="" style="width: 48%; margin-left: -9%"/></a>
