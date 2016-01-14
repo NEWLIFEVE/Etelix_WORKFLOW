@@ -18,9 +18,10 @@ switch ($server){
             define('SERVER_NAME_SINE', 'sine.ribela.net');
             define('SERVER_NAME_RENOC', 'renoc.ribela.net');
 	    define('SERVER_NAME_IMEKA', 'imeka.ribela.net'); 	
-	    define('SERVER_NAME_BA', 'ba.ribela.net'); 
-	    defined('YII_DEBUG') or define('YII_DEBUG',false);
-	    defined('YII_TRACE_LEVEL') or define('YII_TRACE_LEVEL',0);
+	    define('SERVER_NAME_BA', 'ba.ribela.net');  
+            define('SERVER_NAME_TR', 'its.ribela.net');  
+            defined('YII_DEBUG') or define('YII_DEBUG',false);
+            defined('YII_TRACE_LEVEL') or define('YII_TRACE_LEVEL',0);
             $yii=dirname(__FILE__).'/../../../../../yii/yii.php';
         break;
     case SERVER_NAME_PROD2:
@@ -33,8 +34,9 @@ switch ($server){
             define('SERVER_NAME_RENOC', 'renoc.ribela.net');
 	    define('SERVER_NAME_IMEKA', 'imeka.ribela.net');
 	    define('SERVER_NAME_BA', 'ba.ribela.net');
-	    defined('YII_DEBUG') or define('YII_DEBUG',false);
-	    defined('YII_TRACE_LEVEL') or define('YII_TRACE_LEVEL',0);
+            define('SERVER_NAME_TR', 'its.ribela.net');
+            defined('YII_DEBUG') or define('YII_DEBUG',false);
+            defined('YII_TRACE_LEVEL') or define('YII_TRACE_LEVEL',0);
             $yii=dirname(__FILE__).'/../../../../../yii/yii.php';
         break;
     case SERVER_NAME_ALFA:
@@ -45,11 +47,12 @@ switch ($server){
             define('SERVER_NAME_SORI', 'alfa13.ribela.net');
             define('SERVER_NAME_SINE', 'alfa14.ribela.net');
             define('SERVER_NAME_RENOC', 'alfa1.ribela.net');
-            define('SERVER_NAME_IMEKA', 'alfa10.ribela.net');
+            define('SERVER_NAME_IMEKA', 'alfa15.ribela.net');
             define('SERVER_NAME_BA', 'alfa9.ribela.net');
+            define('SERVER_NAME_TR', 'alfa10.ribela.net');
             defined('YII_DEBUG') or define('YII_DEBUG',false);
             defined('YII_TRACE_LEVEL') or define('YII_TRACE_LEVEL',0);
-            $yii=dirname(__FILE__).'/../../../../../../yii/yii.php';
+           $yii=dirname(__FILE__).'/../../../../../../yii/yii.php';
         break;
     case SERVER_NAME_BETA:
             define('SERVER_NAME_RIBELA', ' beta12.ribela.net');
