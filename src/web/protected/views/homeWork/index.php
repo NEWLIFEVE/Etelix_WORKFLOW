@@ -92,7 +92,7 @@
         </div>
         <div class="row">
             <div class="col-md-6"><a href="http://comvozsori.ribela.net" class="btn btn-block" target="_blank"><img src="/images/comvoz.png" alt=""></a></div>
-            <div class="col-md-6"><a href="http://nl.sori.ribela.net" class="btn btn-block" target="_blank"><img src="/images/nl_omega.png" alt="" width="160"></a></div>
+            <div class="col-md-6"><a href="http://nl.sori.ribela.net" class="btn btn-block" target="_blank"><img src="/images/nl_life.jpg" alt="" width="160"></a></div>
         </div>
       </div>
       <div class="modal-footer">
@@ -123,7 +123,7 @@
             </div>
             <div class="row">
                 <div class="col-md-6"><a href="http://sinecomvoz.ribela.net" class="btn btn-block" target="_blank"><img src="/images/comvoz.png" alt=""></a></div>
-                <div class="col-md-6"><a href="http://nl.sine.ribela.net" class="btn btn-block" target="_blank"><img src="/images/nl_omega.png" alt="" width="160"></a></div>
+                <div class="col-md-6"><a href="http://nl.sine.ribela.net" class="btn btn-block" target="_blank"><img src="/images/nl_life.jpg" alt="" width="160"></a></div>
             </div>
         </div>
       </div>
