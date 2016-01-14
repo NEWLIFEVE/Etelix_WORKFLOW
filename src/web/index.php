@@ -66,7 +66,7 @@ switch ($server){
         break;
     default:
             define('SERVER_NAME_RIBELA', 'ribela.local');
-            define('SERVER_NAME_ARU', 'aru.local');
+            define('SERVER_NAME_ARU', 'ribelaerp.backend');
             define('SERVER_NAME_PIG', 'pig.local');
             define('SERVER_NAME_ATC', 'atc.local');
             define('SERVER_NAME_SORI', 'sori.local');
