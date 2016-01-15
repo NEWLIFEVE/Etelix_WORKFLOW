@@ -19,11 +19,12 @@ switch ($server){
             define('SERVER_NAME_SINENL', 'nl.sine.ribela.net');
             define('SERVER_NAME_RENOC', 'renoc.ribela.net');
             define('SERVER_NAME_RENOCNL', 'nl.sori.ribela.net');
-            define('SERVER_NAME_IMEKA', 'imeka.ribela.net');  
+            define('SERVER_NAME_IMEKA', 'imeka.ribela.net'); 
+	    define('SERVER_NAME_BA', 'ba.ribela.net');  
             define('SERVER_NAME_TR', 'its.ribela.net');  
-        defined('YII_DEBUG') or define('YII_DEBUG',false);
-        defined('YII_TRACE_LEVEL') or define('YII_TRACE_LEVEL',0);
-        $yii=dirname(__FILE__).'/../../../../yii/yii.php';
+            defined('YII_DEBUG') or define('YII_DEBUG',false);
+            defined('YII_TRACE_LEVEL') or define('YII_TRACE_LEVEL',0);
+            $yii=dirname(__FILE__).'/../../../../../yii/yii.php';
         break;
     case SERVER_NAME_PROD2:
             define('SERVER_NAME_RIBELA', 'www.ribela.net');
@@ -36,10 +37,11 @@ switch ($server){
             define('SERVER_NAME_RENOC', 'renoc.ribela.net');
             define('SERVER_NAME_RENOCNL', 'nl.sori.ribela.net');
             define('SERVER_NAME_IMEKA', 'imeka.ribela.net');
+	    define('SERVER_NAME_BA', 'ba.ribela.net');
             define('SERVER_NAME_TR', 'its.ribela.net');
-        defined('YII_DEBUG') or define('YII_DEBUG',false);
-        defined('YII_TRACE_LEVEL') or define('YII_TRACE_LEVEL',0);
-        $yii=dirname(__FILE__).'/../../../../yii/yii.php';
+            defined('YII_DEBUG') or define('YII_DEBUG',false);
+            defined('YII_TRACE_LEVEL') or define('YII_TRACE_LEVEL',0);
+            $yii=dirname(__FILE__).'/../../../../../yii/yii.php';
         break;
     case SERVER_NAME_ALFA:
             define('SERVER_NAME_RIBELA', 'alfa12.ribela.net');
@@ -51,12 +53,12 @@ switch ($server){
             define('SERVER_NAME_SINENL', 'nl.sine.ribela.net');
             define('SERVER_NAME_RENOC', 'alfa1.ribela.net');
             define('SERVER_NAME_RENOCNL', 'nl.sori.ribela.net');
-            define('SERVER_NAME_IMEKA', 'alfa10.ribela.net');
+            define('SERVER_NAME_IMEKA', 'alfa15.ribela.net');
             define('SERVER_NAME_BA', 'alfa9.ribela.net');
             define('SERVER_NAME_TR', 'alfa10.ribela.net');
-        defined('YII_DEBUG') or define('YII_DEBUG',false);
-        defined('YII_TRACE_LEVEL') or define('YII_TRACE_LEVEL',0);
-        $yii=dirname(__FILE__).'/../../../../../../yii/yii.php';
+            defined('YII_DEBUG') or define('YII_DEBUG',false);
+            defined('YII_TRACE_LEVEL') or define('YII_TRACE_LEVEL',0);
+           $yii=dirname(__FILE__).'/../../../../../../yii/yii.php';
         break;
     case SERVER_NAME_BETA:
             define('SERVER_NAME_RIBELA', ' beta12.ribela.net');
@@ -74,6 +76,7 @@ switch ($server){
         defined('YII_DEBUG') or define('YII_DEBUG',false);
         defined('YII_TRACE_LEVEL') or define('YII_TRACE_LEVEL',0);
         $yii=dirname(__FILE__).'/../../../../../../yii/yii.php';
+
         break;
     default:
             define('SERVER_NAME_RIBELA', 'ribela.local');
@@ -87,10 +90,11 @@ switch ($server){
             define('SERVER_NAME_RENOCNL', 'nl.sori.ribela.net');
             define('SERVER_NAME_BA', 'ribelaerp.backend');
             define('SERVER_NAME_TR', 'ribelaerp.backend');
-         define('SERVER_NAME_IMEKA', 'report.local');
+            define('SERVER_NAME_IMEKA', 'report.local');
          defined('YII_DEBUG') or define('YII_DEBUG',true);
          defined('YII_TRACE_LEVEL') or define('YII_TRACE_LEVEL',3);
                 $yii=dirname(__FILE__).'/../../../yii/framework/yii.php';
+
         break;
 }
 
