@@ -277,7 +277,7 @@
 <div class='page-footer' style='float:right; margin-top:10px '>
 	<div class='page-footer-inner' style='color:#ffffff;'>
 		 <!--Copyright © ETELIX Group All Rights Reserved -->
-         Derechos Reservados 2014 Etelix Group - <a href='#' style='color:#ffffff'>Ayuda</a>
+         Derechos Reservados ".date('Y')." Etelix Group - <a href='#' style='color:#ffffff'>Ayuda</a>
 	</div>
 
 </div>
