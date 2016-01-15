@@ -149,7 +149,7 @@ $this->pageTitle = Yii::app()->name . ' - Login';
 
     <div style="margin-top:190px; text-align: center; color:#ffffff; font-size: 11px">
   
-        <a id="" href="#" style="color:#ffffff">¿Olvido Su Contraseña?</a> - Copyrigth © 2014 - Etelix Group  <a style="color:#ffffff">Ayuda</a></a>
+        <a id="" href="#" style="color:#ffffff">¿Olvido Su Contraseña?</a> - Copyrigth © <?php echo date('Y') ?> - Etelix Group  <a style="color:#ffffff">Ayuda</a></a>
 </div>
 </div>
     
