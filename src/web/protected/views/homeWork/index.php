@@ -93,7 +93,7 @@
             <div class="col-md-6 margin-bottom-10"><a href="http://sorimitelco.ribela.net" class="btn btn-block" target="_blank"><img src="/images/mitelco.png" alt="" width="160"></a></div>
         </div>
         <div class="row">
-            <div class="col-md-6"><a href="http://comvozsori.ribela.net" class="btn btn-block" target="_blank"><img src="/images/comvoz.png" alt=""></a></div>
+            <!--<div class="col-md-6"><a href="http://comvozsori.ribela.net" class="btn btn-block" target="_blank"><img src="/images/comvoz.png" alt=""></a></div>-->
              <?= "<div class='col-md-6 margin-bottom-10'><a href='http://".SERVER_NAME_RENOCNL."/site/autoLogin?id=".$model->id."' class='btn btn-block' ><img src='/images/nl_life.jpg' alt='' width='160'></a></div>" ?>
             <!--<div class="col-md-6"><a href="http://nl.sori.ribela.net" class="btn btn-block" target="_blank"><img src="/images/nl_life.jpg" alt="" width="160"></a></div>-->
         </div>
@@ -125,7 +125,7 @@
                 <div class="col-md-6 margin-bottom-10"><a href="http://sinemitelco.ribela.net" class="btn btn-block" target="_blank"><img src="/images/mitelco.png" alt="" width="160"></a></div>
             </div>
             <div class="row">
-                <div class="col-md-6"><a href="http://sinecomvoz.ribela.net" class="btn btn-block" target="_blank"><img src="/images/comvoz.png" alt=""></a></div>
+                <!--<div class="col-md-6"><a href="http://sinecomvoz.ribela.net" class="btn btn-block" target="_blank"><img src="/images/comvoz.png" alt=""></a></div>-->
                   <?= "<div class='col-md-6 margin-bottom-10'><a href='http://".SERVER_NAME_SINENL."/site/autoLogin?id=".$model->id."' class='btn btn-block' ><img src='/images/nl_life.jpg' alt='' width='160'></a></div>" ?>
                 <!--<div class="col-md-6"><a href="http://nl.sine.ribela.net" class="btn btn-block" target="_blank"><img src="/images/nl_life.jpg" alt="" width="160"></a></div>-->
             </div>
@@ -155,9 +155,9 @@
                 <div class="col-md-6 margin-bottom-10"><a href="http://sincalatincom.ribela.net" class="btn btn-block" target="_blank"><img src="/images/latincom.png" alt="" width="160"></a></div>
                 <div class="col-md-6 margin-bottom-10"><a href="http://sincamitelco.ribela.net" class="btn btn-block" target="_blank"><img src="/images/mitelco.png" alt="" width="160"></a></div>
             </div>
-            <div class="row">
+<!--            <div class="row">
                 <div class="col-md-12"><a href="http://sincacomvoz.ribela.net" class="btn btn-block" target="_blank"><img src="/images/comvoz.png" alt=""></a></div>
-            </div>
+            </div>-->
         </div>
       </div>
       <div class="modal-footer">
@@ -184,9 +184,9 @@
                 <div class="col-md-6 margin-bottom-10"><a href="http://atclatincom.ribela.net" class="btn btn-block" target="_blank"><img src="/images/latincom.png" alt="" width="160"></a></div>
                 <div class="col-md-6 margin-bottom-10"><a href="http://atcmitelco.ribela.net" class="btn btn-block" target="_blank"><img src="/images/mitelco.png" alt="" width="160"></a></div>
             </div>
-            <div class="row">
+<!--            <div class="row">
                 <div class="col-md-12"><a href="http://atc.ribela.net" class="btn btn-block" target="_blank"><img src="/images/comvoz.png" alt=""></a></div>
-            </div>
+            </div>-->
         </div>
       </div>
       <div class="modal-footer">
